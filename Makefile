@@ -23,9 +23,9 @@ origin_macos_gitconfig := $(MY_MACOS_HOME)/.gitconfig
 origin_linux_gitconfig := $(MY_LINUX_HOME)/.gitconfig
 origin_windows_gitconfig := $(MY_WINDOWS_HOME)/.gitconfig
 
-local_macos_gitconfig := $(MY_SETUP_REPO)/version_control/git/.macos.gitconfig
-local_linux_gitconfig := $(MY_SETUP_REPO)/version_control/git/.linux.gitconfig
-local_windows_gitconfig := $(MY_SETUP_REPO)/version_control/git/.windows.gitconfig
+local_macos_gitconfig := $(MY_SETUP_REPO)/version_control/git/.gitconfig
+local_linux_gitconfig := $(MY_SETUP_REPO)/version_control/git/.gitconfig
+local_windows_gitconfig := $(MY_SETUP_REPO)/version_control/git/.gitconfig
 
 push-gitconfig:  # wsl-linux & windows
 	#yes | cp -rf $(local_macos_gitconfig) $(origin_macos_gitconfig)
@@ -39,3 +39,4 @@ pull-gitconfig: # wsl-linux & windows
 
 # -------------------------------------------------------
 # TERMINAL
+
