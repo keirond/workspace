@@ -36,3 +36,6 @@ pull-gitconfig: # wsl-linux & windows
 	#yes | cp -rf $(origin_macos_gitconfig) $(local_macos_gitconfig)
 	yes | cp -rf $(origin_linux_gitconfig) $(local_linux_gitconfig)
 	yes | cp -rf $(origin_windows_gitconfig) $(local_windows_gitconfig)
+
+# -------------------------------------------------------
+# TERMINAL
